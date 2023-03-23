@@ -136,7 +136,7 @@ function Features() {
                 data-aos-easing="ease-in-sine"
                 className="col-span-1 flex justify-start align-middle items-center my-auto mb-10"
               >
-                <div className="bg-black w-[80%] lg:mt-28 lg:ml-3 mx-auto  lg:mx-0">
+                <div className="bg-[#6ADA82] w-[80%] lg:mt-28 lg:ml-3 mx-auto  lg:mx-0">
                   <div className="bg-white text-black  mr-[15px] mt-[15px] -ml-[15px]  -mb-[15px] p-3 sm:p-5 lg:p-7 border border-black">
                     <h1 className="text-[18px] sm:text-[23px] lg:text-[26.72px] font-bold">
                       Mediatool for Agencies

@@ -63,13 +63,14 @@ svg .drow{
 }
 @keyframes herotitle {
   from{
-width: 10%;
+width: 30%;
+color: black;
   }
   to{
 width: 50%;
   }
 }
-.supportimg{
+.logo{
   /* background-color: #85fc8f; */
 
  
@@ -81,11 +82,10 @@ width: 50%;
 }
 @keyframes heroimg {
   from{
-    width:"1958px";
-    height:"1962px";
+  height: 30%;
   }
   to{
-    width:"958px";
-    height:"962px";
+  height: 100%;
   }
 }
+

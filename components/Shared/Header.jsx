@@ -4,10 +4,10 @@ import React from "react";
 import { useState } from "react";
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  console.log("abcd",isMenuOpen)
+  // console.log("abcd",isMenuOpen)
   const handleClick=()=>{
 // setIsMenuOpen(false)
-console.log("click")
+// console.log("click")
   }
   return (
     <>

@@ -1,9 +1,11 @@
 import Image from "next/image";
 import React from "react";
-
-import { useState } from "react";
+import Vivus from 'vivus';
+import { useRef, useEffect, useState } from "react";
 function EndPage() {
   const [counterOn, setCounterOn] = useState(false);
+  const heroRef = useRef(null);
+
   return (
     <>
       <div className="container mx-auto mt-[550px] lg:mt-0 py-20 bg-white text-black">
@@ -23,10 +25,13 @@ function EndPage() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 my-5">
-          <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="col-span-1 ">
+        <div  className="logo grid grid-cols-1 lg:grid-cols-3 my-5 "   >
+          <div 
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="col-span-1"
+          >
             <div className=" flex justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +45,7 @@ function EndPage() {
               </svg>
             </div>
 
-            <div className="w-[90%] sm:w-[80%] bg-black h-36  relative mx-auto">
+            <div className=" w-[90%] sm:w-[80%] bg-black h-36  relative mx-auto">
               <div className="absolute top-4 left-4  w-full bg-white p-3 sm:p-5 border border-black">
                 <div className="flex gap-2">
                   <div>
@@ -66,7 +71,7 @@ function EndPage() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center mt-4">
+            <div className="flex justify-center mt-7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="21"
@@ -128,10 +133,13 @@ function EndPage() {
               </svg>
             </div>
           </div>
-          <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="2000" className="col-span-1 mx-auto">
-          <div className=" flex justify-center">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000"
+            className="col-span-1 mx-auto"
+          >
+            <div className=" flex justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="8"
@@ -201,7 +209,6 @@ function EndPage() {
               </div>
               <div className="text-[15px] mt-2 line-clamp-2">
                 The positive feedback from our customers and prospective
-             
               </div>
             </div>
             <div className="flex justify-center">
@@ -227,9 +234,12 @@ function EndPage() {
               </svg>
             </div>
           </div>
-          <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="2500" className="col-span-1 ">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2500"
+            className="col-span-1 "
+          >
             <div className=" flex justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -280,7 +290,7 @@ function EndPage() {
                 ></path>
               </svg>
             </div>
-           
+
             <div className="w-[90%] sm:w-[80%] bg-black h-48 sm:h-52  relative mx-auto lg:mx-0 lg:ml-[77px] mt-2">
               <div className="absolute bottom-4 right-4  w-full bg-white p-3 sm:p-5 border border-black">
                 <div className="flex gap-2">
@@ -303,9 +313,9 @@ function EndPage() {
                 </div>
                 <div className="text-[15px] mt-2 line-clamp-5">
                   The positive feedback from our customers and prospective
-                  customers on the website was instantaneous. on the website was instantaneous. The positive
-                feedback from our customers and prospectiv 
-                
+                  customers on the website was instantaneous. on the website was
+                  instantaneous. The positive feedback from our customers and
+                  prospectiv
                 </div>
               </div>
             </div>

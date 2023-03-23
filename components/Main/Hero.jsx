@@ -43,8 +43,8 @@ function Hero() {
               <input type="text"  placeholder="Enter email" className="w-[100%] my-auto"
               />
                <div className="relative flex h-full w-full">
-               <div className="herotitle absolute  top-1 left-1 right-0  bg-green-500 w-[50%]  my-auto h-full  flex"><span className=""></span>
-                <div className="absolute top-0 -left-1 bottom-2  bg-black w-[100%] text-white my-auto h-full flex   "><span className="m-auto">adsks</span></div>
+               <div className="herotitle absolute  top-1 left-1 right-0  bg-green-500 w-[50%]  my-auto h-full  flex"><span className="">Le</span>
+                <div className="absolute top-0 -left-1 bottom-2  bg-black w-[100%] text-white my-auto h-full flex   "><span className="m-auto">LearnMore</span></div>
                </div>
                 </div>
               </div>
