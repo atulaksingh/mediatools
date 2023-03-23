@@ -201,11 +201,11 @@ function Header() {
 
           <Navbar.Toggle />
         </div>
-        <Navbar.Collapse>
-          <Navbar className="font-bold text-base">Home</Navbar>
-          <Navbar className="font-bold text-base">About</Navbar>
-          <Navbar className="font-bold text-base">Services</Navbar>
-          <Navbar className="md:hidden block  font-bold text-base">Sign In</Navbar>
+        <Navbar.Collapse className=" w-full h-[520px] md:h-full mx-auto">
+          <Navbar className="font-bold text-base mx-auto py-5">Home</Navbar>
+          <Navbar className="font-bold text-base mx-auto py-5">About</Navbar>
+          <Navbar className="font-bold text-base mx-auto py-5">Services</Navbar>
+          <Navbar className="md:hidden block  font-bold mx-auto text-base py-5">Sign In</Navbar>
           <Button className="md:hidden block w-32 mx-auto my-5 rounded-full " color={"dark"}>
             Get started
           </Button>
