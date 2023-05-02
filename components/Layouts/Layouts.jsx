@@ -4,7 +4,7 @@ import React from "react";
 import Footer from '../Shared/Footer';
 import Header from '../Shared/Header';
 
-const Layout = ({ children, title = "Mediatool" }) => {
+const Layout = ({ children, title = "Mediatools" }) => {
   return (
     <>
       <Head>
