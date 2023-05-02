@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <div>
         <Layout>
-        <div className="mx-3 my-5">
+        <div className="mx-3 mt-20">
           <Hero />
           <Work />
           <Support />
